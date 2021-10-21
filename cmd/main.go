@@ -2,9 +2,9 @@ package main
 
 import (
 	"flag"
-	"github.com/etiennecoutaud/demo-controller/internal/controller"
-	clientset "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned"
-	informers "github.com/etiennecoutaud/demo-controller/pkg/client/informers/externalversions"
+	"github.com/artifakt-io/demo-controller/internal/controller"
+	clientset "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned"
+	informers "github.com/artifakt-io/demo-controller/pkg/client/informers/externalversions"
 	kubeinformers "k8s.io/client-go/informers"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"

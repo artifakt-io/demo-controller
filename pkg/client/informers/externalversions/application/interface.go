@@ -7,8 +7,8 @@ Artifakt Platform generated code
 package application
 
 import (
-	v1 "github.com/etiennecoutaud/demo-controller/pkg/client/informers/externalversions/application/v1"
-	internalinterfaces "github.com/etiennecoutaud/demo-controller/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/artifakt-io/demo-controller/pkg/client/informers/externalversions/application/v1"
+	internalinterfaces "github.com/artifakt-io/demo-controller/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

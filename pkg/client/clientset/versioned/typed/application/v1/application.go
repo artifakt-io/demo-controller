@@ -10,8 +10,8 @@ import (
 	"context"
 	"time"
 
-	v1 "github.com/etiennecoutaud/demo-controller/pkg/apis/application/v1"
-	scheme "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/artifakt-io/demo-controller/pkg/apis/application/v1"
+	scheme "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned/scheme"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

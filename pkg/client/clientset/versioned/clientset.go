@@ -9,7 +9,7 @@ package versioned
 import (
 	"fmt"
 
-	cloudestv1 "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned/typed/application/v1"
+	cloudestv1 "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned/typed/application/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

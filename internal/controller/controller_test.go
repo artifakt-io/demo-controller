@@ -1,9 +1,9 @@
 package controller_test
 
 import (
-	"github.com/etiennecoutaud/demo-controller/internal/controller"
-	v1 "github.com/etiennecoutaud/demo-controller/pkg/apis/application/v1"
-	informers "github.com/etiennecoutaud/demo-controller/pkg/client/informers/externalversions"
+	"github.com/artifakt-io/demo-controller/internal/controller"
+	v1 "github.com/artifakt-io/demo-controller/pkg/apis/application/v1"
+	informers "github.com/artifakt-io/demo-controller/pkg/client/informers/externalversions"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/diff"
@@ -19,7 +19,7 @@ import (
 	core "k8s.io/client-go/testing"
 	"k8s.io/client-go/tools/record"
 
-	"github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned/fake"
+	"github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned/fake"
 )
 
 var (

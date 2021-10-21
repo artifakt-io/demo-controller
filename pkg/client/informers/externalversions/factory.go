@@ -11,9 +11,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned"
-	application "github.com/etiennecoutaud/demo-controller/pkg/client/informers/externalversions/application"
-	internalinterfaces "github.com/etiennecoutaud/demo-controller/pkg/client/informers/externalversions/internalinterfaces"
+	versioned "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned"
+	application "github.com/artifakt-io/demo-controller/pkg/client/informers/externalversions/application"
+	internalinterfaces "github.com/artifakt-io/demo-controller/pkg/client/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

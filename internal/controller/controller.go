@@ -2,11 +2,11 @@ package controller
 
 import (
 	"fmt"
-	v1 "github.com/etiennecoutaud/demo-controller/pkg/apis/application/v1"
-	clientset "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned"
-	applicationscheme "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned/scheme"
-	informers "github.com/etiennecoutaud/demo-controller/pkg/client/informers/externalversions/application/v1"
-	listers "github.com/etiennecoutaud/demo-controller/pkg/client/listers/application/v1"
+	v1 "github.com/artifakt-io/demo-controller/pkg/apis/application/v1"
+	clientset "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned"
+	applicationscheme "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned/scheme"
+	informers "github.com/artifakt-io/demo-controller/pkg/client/informers/externalversions/application/v1"
+	listers "github.com/artifakt-io/demo-controller/pkg/client/listers/application/v1"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

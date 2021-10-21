@@ -7,7 +7,7 @@ Artifakt Platform generated code
 package v1
 
 import (
-	v1 "github.com/etiennecoutaud/demo-controller/pkg/apis/application/v1"
+	v1 "github.com/artifakt-io/demo-controller/pkg/apis/application/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"

@@ -1,4 +1,4 @@
-module github.com/etiennecoutaud/demo-controller
+module github.com/artifakt-io/demo-controller
 
 go 1.16
 

@@ -7,7 +7,7 @@ Artifakt Platform generated code
 package scheme
 
 import (
-	cloudestv1 "github.com/etiennecoutaud/demo-controller/pkg/apis/application/v1"
+	cloudestv1 "github.com/artifakt-io/demo-controller/pkg/apis/application/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

@@ -1,5 +1,7 @@
 # Cloud Est 2021 - Demo Controller
-## `Ecrire un opérateur Kubernetes c'est bien, le tester c'est mieux`
+## `Coder un controller Kubernetes c'est bien, le tester c'est mieux`
+
+Conference deck is available [here](https://speakerdeck.com/artifakt-io/cloud-est-2021)
 
 This repository contains all code used during the talk.
 
@@ -39,6 +41,11 @@ make install
 
 ```
 make run
+```
+
+:warning: Go code is compiled with a `darwin` architecture, if you are on linux, update `GOOS` flag
+```
+GOOPTS=GOARCH=amd64 CGO_ENABLED=0 GOOS=linux
 ```
 
 You can deploy an example application provided into `examples`

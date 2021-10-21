@@ -7,9 +7,9 @@ Artifakt Platform generated code
 package fake
 
 import (
-	clientset "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned"
-	cloudestv1 "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned/typed/application/v1"
-	fakecloudestv1 "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned/typed/application/v1/fake"
+	clientset "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned"
+	cloudestv1 "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned/typed/application/v1"
+	fakecloudestv1 "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned/typed/application/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

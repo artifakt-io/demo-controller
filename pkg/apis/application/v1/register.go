@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	application "github.com/etiennecoutaud/demo-controller/pkg/apis/application"
+	application "github.com/artifakt-io/demo-controller/pkg/apis/application"
 )
 
 // SchemeGroupVersion is group version used to register these objects

@@ -7,8 +7,8 @@ Artifakt Platform generated code
 package v1
 
 import (
-	v1 "github.com/etiennecoutaud/demo-controller/pkg/apis/application/v1"
-	"github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/artifakt-io/demo-controller/pkg/apis/application/v1"
+	"github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

@@ -7,7 +7,7 @@ Artifakt Platform generated code
 package v1
 
 import (
-	internalinterfaces "github.com/etiennecoutaud/demo-controller/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/artifakt-io/demo-controller/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

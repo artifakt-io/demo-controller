@@ -7,7 +7,7 @@ Artifakt Platform generated code
 package fake
 
 import (
-	v1 "github.com/etiennecoutaud/demo-controller/pkg/client/clientset/versioned/typed/application/v1"
+	v1 "github.com/artifakt-io/demo-controller/pkg/client/clientset/versioned/typed/application/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )
