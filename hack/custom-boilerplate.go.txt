@@ -1,0 +1,4 @@
+/*
+Artifakt Platform generated code
+*/
+
