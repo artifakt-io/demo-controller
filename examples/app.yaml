@@ -1,0 +1,8 @@
+apiVersion: cloudest.artifakt.io/v1
+kind: Application
+metadata:
+  name: myapp
+  namespace: default
+spec:
+  imageName: nginx
+  replicas: 1
