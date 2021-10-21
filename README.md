@@ -1,7 +1,7 @@
 # Cloud Est 2021 - Demo Controller
 ## `Coder un controller Kubernetes c'est bien, le tester c'est mieux`
 
-Conference deck is available [here](https://speakerdeck.com/artifakt-io/cloud-est-2021)
+Conference deck is available [here](https://speakerdeck.com/etiennecoutaud/cloud-est-2021)
 
 This repository contains all code used during the talk.
 
